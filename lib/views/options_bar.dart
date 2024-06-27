@@ -33,7 +33,6 @@ class OptionsBar extends StatelessWidget {
               isActive: handler.selectedShapeType == ShapeType.island,
             ),
           ),
-          const Spacer(),
           _OptionButton(
             onTap: () async {
               final path = await handler.exportDxf();
